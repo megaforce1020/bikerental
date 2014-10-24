@@ -11,5 +11,6 @@ package bicyclerentalmgrclass;
  * @author bus-5170
  */
 public enum BikeType {
-    
+    mountainbike,
+    roadbike;
 }
