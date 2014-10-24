@@ -19,11 +19,14 @@ public class Renter {
     private int hoursRequested;
     
     //This seems like a method name Renter is the same as the class name
-    //If I take out public then the package name would be Renter; this is default
-    //By making it public any file can access this file with the method called Renter
+    //If I take out public then the package name would be Renter; this is 
+    //default
+    //By making it public any file can access this file with the method 
+    //called Renter
     //Constructor Renter with defined local variables inside its parameter
     public Renter (int id, int time) {
-        //in these constructer lines of code you are matching the fields with the local variables stored in memory
+        //in these constructer lines of code you are matching the fields 
+        //with the local variables stored in memory
         //this means that someone has given you an input
         //the order is very important
         rID=id;
@@ -40,7 +43,8 @@ public class Renter {
     }
     //getter is a method with no inputs or parameter
     public int getHours(){
-        //hoursRequested must match this methods return data type which is an int
+        //hoursRequested must match this methods return data type which is 
+        //an int
         return hoursRequested;
     }
     public int getID(){
